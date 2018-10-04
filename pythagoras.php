@@ -81,7 +81,7 @@ $trojuhelnikobsah = round(($strana / 2 * (sqrt(3))) * $strana / 2, 2);
                 </tr>
                 <tr>
                   <td>Obsah obdélníku:</td>
-                  <td class="table-danger">S = a * b = <?php echo $obdelnikobsah; ?> cm</td>
+                  <td class="table-danger">S = a * b = <?php echo $obdelnikobsah; ?> cm<sup>2</sup></td>
                 </tr>
               </tbody>
             </table>
@@ -108,7 +108,7 @@ $trojuhelnikobsah = round(($strana / 2 * (sqrt(3))) * $strana / 2, 2);
                 </tr>
                 <tr>
                   <td>Obsah trojúhelníku:</td>
-                  <td class="table-danger">S = a * v / 2 = <?php echo $trojuhelnikobsah; ?> cm</td>
+                  <td class="table-danger">S = a * v / 2 = <?php echo $trojuhelnikobsah; ?> cm<sup>2</sup></td>
                 </tr>
               </tbody>
             </table>
