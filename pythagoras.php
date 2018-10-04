@@ -100,7 +100,7 @@ $trojuhelnikobsah = round(($strana / 2 * (sqrt(3))) * $strana / 2, 2);
                 </tr>
                 <tr>
                   <td>Obvod trojúhelníku:</td>
-                  <td class="table-danger">o = 3a = <?php echo $strana; ?> cm</td>
+                  <td class="table-danger">o = 3a = <?php echo ($strana * 3); ?> cm</td>
                 </tr>
                 <tr>
                   <td>Výška trojúhelníku:</td>
